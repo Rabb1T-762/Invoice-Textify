@@ -3,7 +3,15 @@
 Welcome to Invoice-Textify! This app allows you to upload images of invoices and process them to extract line-item names, costs, and invoice totals. You can then export this data in convenient formats for further analysis and reporting.
 
 ### Currently in development
-This app is still in development. Check back in later or consider contributing. 
+This app is still in development. 
+
+The current version only supports invoices exactly like the invoices in the testData folder. 
+The reason is that the image-to-text areas are currently hard coded and the app can't yet dynamically detect the data and tables. This is a work in progress. 
+
+The app will work with a single file, multiple files, or directories. 
+
+It currently calculates the total of the invoice and adds it to the dictionary under "total" and will output a single excel file with all the data for that invoice. 
+
 
 ## Features
 
